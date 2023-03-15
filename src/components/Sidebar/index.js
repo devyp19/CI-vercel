@@ -222,7 +222,7 @@ const Sidebar = (props) => {
               </Column>
               <Row
                 onClick={() => {
-                  dispatch(logout()), navigateTo("/");
+                  window.open('http://dhiwise.com/?utm_campaign=Community&utm_source=github_project&utm_medium=github&utm_term=react&utm_content=company_intranet')
                 }}
                 className="common-pointer bg-gray_101 h-[5%] flex flex-row items-center justify-between lg:mt-[248px] xl:mt-[310px] 2xl:mt-[348px] 3xl:mt-[418px] lg:p-[5px] xl:p-[15px] 2xl:p-[7px] 3xl:p-[9px] rounded-radius8 w-[90%] m-[10px]"
               >

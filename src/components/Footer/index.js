@@ -7,12 +7,12 @@ const Footer = ({ className }) => {
         }`}
     >
       <Column className="flex flex-column items-center justify-center mx-auto">
-        <Img src="/images/main-beta.svg" className="w-36" alt="" />
+        <div className="cursor-pointer" onClick={() => window.open('http://dhiwise.com/?utm_campaign=Community&utm_source=github_project&utm_medium=github&utm_term=react&utm_content=company_intranet')}><Img src="/images/main-beta.svg" className="w-36" alt="" /></div>
         <div className="text-sm font-semibold">
-          60% of this application is created using DhiWise.
+          60% of this application is created using <a className="cursor-pointer hover:underline" target='_blank' style={{ color: "#0d6efd" }} href="http://dhiwise.com/?utm_campaign=Community&utm_source=github_project&utm_medium=github&utm_term=react&utm_content=company_intranet">DhiWise</a>.
         </div>
         <div className="text-sm font-semibold">
-          This is just a preview of the app. Access all the features for free on <a href="www.demo.com" target="_blank" className="hover:underline" style={{ color: "#0d6efd" }}>GitHub</a>.
+          This is just a preview of the app. Access all the features for free on <a href="https://github.com/DhiWise/Company_Intranet" target="_blank" className="hover:underline" style={{ color: "#0d6efd" }}>GitHub</a>.
         </div>
       </Column>
     </Row>
